@@ -1,0 +1,8 @@
+14:12:56.536 {main} INFO  resources.baseDrvrs -Driver initialized
+14:13:09.353 {main} INFO  resources.baseDrvrs -Lightbox PopUp found
+14:13:14.120 {main} INFO  resources.baseDrvrs -Lightbox PopUp closed
+14:13:32.708 {main} INFO  resources.baseDrvrs -Login successful
+14:13:37.262 {main} INFO  resources.baseDrvrs -Driver initialized
+14:13:49.458 {main} INFO  resources.baseDrvrs -Lightbox PopUp found
+14:13:55.179 {main} INFO  resources.baseDrvrs -Lightbox PopUp closed
+14:14:21.721 {main} INFO  resources.baseDrvrs -Login unsuccessful

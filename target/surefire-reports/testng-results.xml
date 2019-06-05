@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="80553" started-at="2019-06-05T19:10:47Z" finished-at="2019-06-05T19:12:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="63437" started-at="2019-06-05T19:10:47Z" finished-at="2019-06-05T19:11:51Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="initD()[pri:0, instance:Academy.HomePage@6c80d78a]" name="initD" is-config="true" duration-ms="3121" started-at="2019-06-05T19:10:47Z" finished-at="2019-06-05T19:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initD -->
+        <test-method status="PASS" signature="basePageNav(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@6c80d78a]" name="basePageNav" duration-ms="25176" started-at="2019-06-05T19:10:50Z" data-provider="getData" finished-at="2019-06-05T19:11:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lenny@kfaihdfb.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Common user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNav -->
+        <test-method status="PASS" signature="basePageNav(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@6c80d78a]" name="basePageNav" duration-ms="35074" started-at="2019-06-05T19:11:16Z" data-provider="getData" finished-at="2019-06-05T19:11:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lenny2@kfaihdfb.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Uncommon user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNav -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePage@6c80d78a]" name="teardown" is-config="true" duration-ms="51" started-at="2019-06-05T19:11:51Z" finished-at="2019-06-05T19:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Test -->
+    <test name="Test2" duration-ms="17082" started-at="2019-06-05T19:11:51Z" finished-at="2019-06-05T19:12:08Z">
+      <class name="Academy.assHome">
+        <test-method status="PASS" signature="initD()[pri:0, instance:Academy.assHome@7b9a4292]" name="initD" is-config="true" duration-ms="2226" started-at="2019-06-05T19:11:51Z" finished-at="2019-06-05T19:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initD -->
+        <test-method status="PASS" signature="assertTest()[pri:0, instance:Academy.assHome@7b9a4292]" name="assertTest" duration-ms="12537" started-at="2019-06-05T19:11:53Z" finished-at="2019-06-05T19:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertTest -->
+        <test-method status="PASS" signature="shutd()[pri:0, instance:Academy.assHome@7b9a4292]" name="shutd" is-config="true" duration-ms="2318" started-at="2019-06-05T19:12:06Z" finished-at="2019-06-05T19:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutd -->
+      </class> <!-- Academy.assHome -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="178394" started-at="2019-06-05T19:12:08Z" finished-at="2019-06-05T19:15:06Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@7e07db1f]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Validating Users Cucumber" duration-ms="178394" started-at="2019-06-05T19:12:08Z" finished-at="2019-06-05T19:15:06Z">
+      <class name="cucumberOptions.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@7e07db1f]" name="setUpClass" is-config="true" duration-ms="82" started-at="2019-06-05T19:12:08Z" finished-at="2019-06-05T19:12:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@7e07db1f]" name="runScenario" duration-ms="45810" started-at="2019-06-05T19:12:08Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-05T19:12:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Opening home page after login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["App Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@7e07db1f]" name="runScenario" duration-ms="40684" started-at="2019-06-05T19:12:54Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-05T19:13:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Opening home page after login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["App Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@7e07db1f]" name="runScenario" duration-ms="46774" started-at="2019-06-05T19:13:35Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-05T19:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Opening home page after login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["App Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@7e07db1f]" name="runScenario" duration-ms="45018" started-at="2019-06-05T19:14:21Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-06-05T19:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Opening home page after login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["App Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@7e07db1f]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2019-06-05T19:15:06Z" finished-at="2019-06-05T19:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- Validating Users Cucumber -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

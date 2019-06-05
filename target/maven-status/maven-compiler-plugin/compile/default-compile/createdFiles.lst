@@ -1,0 +1,6 @@
+pageObjects\userHome.class
+resources\baseDrvrs.class
+resources\TestNGIReporter.class
+pageObjects\landingP.class
+pageObjects\loginP.class
+Academy\App.class
