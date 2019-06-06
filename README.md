@@ -13,3 +13,10 @@ java -version
 ```bash
 mvn --version
 ```
+## Test Java Code
+
+```java
+public void main(String[] args){
+  System.out.println("This is a readme test");
+}
+```
