@@ -1,14 +1,14 @@
 # UnivFramework
 Testing Framework
 
-##Java Version
+## Java Version
 Check you have Java on your machine.
 
 ```bash
 java -version
 ```
 
-##Maven
+## Maven
 
 ```bash
 mvn --version
